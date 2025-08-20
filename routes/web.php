@@ -16,5 +16,5 @@ route::get('/about', function (){
 route::view('/contact', 'pages.contact');
 
 // satu controller banyak method
-Route::get('/product', [ProdukController::class, 'getProduk']);
+Route::get('/product', [ProdukController::class, 'index']); //read data menampilkan produk
 Route::get('/product/tambah', [ProdukController::class, 'tambahProduk']);

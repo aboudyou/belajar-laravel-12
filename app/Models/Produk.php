@@ -4,10 +4,10 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Produk extends Controller
+class Produk extends Model
 {
     //inisialisasi model produk
-    protected $table = 'id_produk'; 
+    protected $table = 'tb_produk'; 
 
     //inisialisasi primary key di dalam model
     protected $primaryKey = 'id_produk';
